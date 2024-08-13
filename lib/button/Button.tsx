@@ -5,5 +5,7 @@ type ButtonProps = {
 };
 
 export const Button = ({ children }: ButtonProps): ReactNode => (
-  <button>Hello {children}!!!</button>
+  <button className="bg-blue-700 text-white px-3 py-1 rounded-md">
+    Hello {children}!!!
+  </button>
 );
