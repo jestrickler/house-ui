@@ -19,11 +19,12 @@
     "prebuild": "rm -rf dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "react": "^18.3.1",
